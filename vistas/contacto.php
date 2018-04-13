@@ -2,120 +2,119 @@
 <?php include 'encabezado2.php' ?>
 <body>
 
-   <header>
-  <nav class="pull-left">
-    <ul>
-      <a class="selector" href="../index.php">INICIO</a>
-      <a class="selector" href="nosotros.php">NOSOTROS</a>
-      <a class="selector" href="servicios.php">SERVICIOS</a>
-      <a class="selector" id="select" href="contacto.php">CONTACTO</a>
-    </ul>
-  </nav>
+   <header id="header4">
 
-  <figure class="logo pull-right animated bounceInRight">
-    <img src="../img/romza.png" alt="ROMZA" class="img-responsive">
-  </figure>
-  <div class="op-menu">
-      <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
-    </div>
+  <div class="menu">
+    <figure class="logo pull-left">
+      <img src="../img/natzan.png" alt="NATZAN" class="img-responsive">
+    </figure>
+    <nav class="pull-right">
+      <ul>
+        <a class="selector" href="../index.php">INICIO</a>
+        <a class="selector" href="nosotros.php">NOSOTROS</a>
+        <a class="selector" href="servicios.php">PRODUCTOS</a>
+        <a class="selector" id="select" href="contacto.php">CONTACTO</a>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="textoh">
+    <p>Cotiza el equipo que requieras</p>
+  </div>
+  
 </header>
 
-<div class="bannerc">
-  <div class="fondo2 animated bounceInLeft">
-    <p class="tit">Contacto<br> Estamos para servirte </p>
-  </div>
+<div class="tit">
+  <h1>CONTACTANOS</h1>
 </div>
 
-<div class="jumbotron jumbotron-sm">
-    <div class="container">
-        <div class="row">
-                <p class="ts"> 
-                    Llene el siguiente formulario y ponganse en contacto con nosotros, un especialista lo atenderá.
-                </p>
+<div class="container bootstrap snippets" style="padding:5%;">
+      <div class="row text-center">
+        <div class="col-md-3">
+          <div class="contact-detail-box">
+            <i class="fa fa-th fa-3x text-colored"></i>
+            <h4>Teléfono</h4>
+             PENDIENTE<br>
+            
+          </div>
         </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-sm-7 col-md-8">
-            <div class="well well-sm">
-                <form>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="name">
-                                Nombre completo</label>
-                             <div class="input-group">
-                              <span class="input-group-addon"><span class="glyphicon fa fa-user"></span>
-                              </span>
-                              <input type="text" class="form-control" id="txtNOMBRE" placeholder="Escribe tu nombre completo" required="required" /></div>   
-                            
-                        </div>
-                        <div class="form-group">
-                            <label for="email">
-                                Correo</label>
-                            <div class="input-group">
-                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
-                                </span>
-                                <input type="email" class="form-control" id="txtCORREO" placeholder="Escribe tu correo electrónico" required="required" /></div>
-                        </div>
-                        <div class="form-group">
-                            <label for="name">
-                                Teléfono</label>
-                              <div class="input-group">
-                              <span class="input-group-addon"><span class="glyphicon fa fa-phone"></span>
-                              </span>
-                              <input type="text" class="form-control" id="txtTELEFONO" placeholder="Escribe tu número teléfonico" required="required" /></div>
-                            
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="name">
-                                Comentario</label>
-                            <textarea name="message" id="txtCOMENTARIO" class="form-control" rows="9" cols="25" required="required"
-                                placeholder="Escribe tu comentario"></textarea>
-                        </div>
-                    </div>
-                    <div id="_AJAX_PRE_" class="col-lg-12"></div>
-                    <div class="col-md-12">
-                        <button type="submit" class="btn btn-danger pull-right" id="btnContactUs" onclick="sendCORREO()">
-                            Enviar Mensaje</button>
-                    </div>
-                </div>
-                </form>
+
+        <div class="col-md-3">
+          <div class="contact-detail-box">
+            <i class="fa fa-map-marker fa-3x text-colored"></i>
+            <h4>Dirección</h4>
+
+            <address>
+            BLVD. Arcoiris #442<br> por Av. Indigo y Av. Beige.
+            Col. Monte Real, Tuxtla Gutierrez, Chiapas. C.P. 29023.<br>
+          </address>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="contact-detail-box">
+            <i class="fa fa-book fa-3x text-colored"></i>
+            <h4>Correo</h4>
+
+           <a href="mailto:info@maquinariasnatzan.com" class="text-muted">info@maquinariasnatzan.com</a>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="contact-detail-box">
+            <i class="fa fa-clock fa-3x text-colored"></i>
+            <h4>Horario</h4>
+
+            Lunes a Viernes de 9 am a 6 pm
+          </div>
+        </div>
+
+      </div> <br><br>
+
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.179218843245!2d-93.14850498575655!3d16.767756824793906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd9184bfc93ed%3A0xa8c68497e0aab135!2sBlvd.+Arco+Iris+442%2C+Monterreal%2C+29026+Tuxtla+Guti%C3%A9rrez%2C+Chis.!5e0!3m2!1ses-419!2smx!4v1523644145461" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        
+        <div class="col-md-6">
+          <form role="form" name="ajax-form" id="ajax-form" action="" method="post" class="form-main">
+
+            <div class="form-group">
+              <label for="name2">Nombre</label>
+              <input class="form-control" id="name2" name="name" type="text" value="Nombre">
             </div>
+
+            <div class="form-group">
+              <label for="name2">Teléfono</label>
+              <input class="form-control" id="name2" name="name" type="text" value="Teléfono">
+            </div>
+
+            <div class="form-group">
+              <label for="email2">Correo</label>
+              <input class="form-control" id="email2" name="email" type="text" value="Correo">              
+            </div>
+
+            <div class="form-group">
+              <label for="message2">Comentario</label>
+              <textarea class="form-control" id="message2" name="message" rows="5">Comentario</textarea>
+            </div>
+
+            <div class="row">            
+              <div class="col-xs-12">
+                <button type="submit" class="btn btn-4  btn-rounded " id="send">ENVIAR</button>
+              </div>
+            </div>
+
+          </form>
         </div>
-        <div class="col-sm-5 col-md-4">
-            <form>
-            <legend><span class="glyphicon fa fa-globe"></span> Datos de la empresa</legend>
-            <address>
-                <strong>Dirección</strong><br>
-                Av. 6-A Sur Poniente #367 <br>
-                Col. San Pascualito,<br>
-                Tuxtla Gutierrez, Chiapas. C.P. 29000 <br>
-            </address>
-            <address>
-                <strong>Correo</strong><br>
-                <a href="mailto:info@mantenimientoromza.com">info@mantenimientoromza.com</a>
-            </address>
-            <address>
-                <strong>Teléfono</strong><br>
-                PENDIENTE
-            </address>
-            <address>
-                <strong>Horario</strong><br>
-                Lunes a Viernes de 9 am a 6 pm
-            </address>
-            </form>
-        </div>
+
+      </div> 
+          
     </div>
-</div>
-
-<div class="mapa">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.557730368764!2d-93.12162538575677!3d16.748905125314334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd8f513ba91df%3A0xa8a5f527199a12a!2sAv.+Sexta+Sur+Pte.+367%2C+El+Calvario%2C+29000+Tuxtla+Guti%C3%A9rrez%2C+Chis.!5e0!3m2!1ses-419!2smx!4v1510180828569" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
-
 
 <span class="ir-arriba"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
 <?php include 'pie.php' ?>

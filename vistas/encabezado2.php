@@ -17,4 +17,5 @@
 	<link rel="stylesheet" href="../css/estilos.css">
 	<link rel="stylesheet" href="../css/responsivo.css">
 	<script src="../js/general.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
 </head>
