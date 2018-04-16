@@ -16,6 +16,9 @@
         <a class="selector" id="select" href="contacto.php">CONTACTO</a>
       </ul>
     </nav>
+    <div class="openclose">
+      <i class="fa fa-bars open" aria-hidden="true"></i>
+    </div> 
   </div>
 
   <div class="textoh">
@@ -30,7 +33,7 @@
 
 <div class="container bootstrap snippets" style="padding:5%;">
       <div class="row text-center">
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
           <div class="contact-detail-box">
             <i class="fa fa-th fa-3x text-colored"></i>
             <h4>Teléfono</h4>
@@ -39,7 +42,7 @@
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
           <div class="contact-detail-box">
             <i class="fa fa-map-marker fa-3x text-colored"></i>
             <h4>Dirección</h4>
@@ -51,7 +54,7 @@
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
           <div class="contact-detail-box">
             <i class="fa fa-book fa-3x text-colored"></i>
             <h4>Correo</h4>
@@ -60,7 +63,7 @@
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
           <div class="contact-detail-box">
             <i class="fa fa-clock fa-3x text-colored"></i>
             <h4>Horario</h4>
@@ -73,39 +76,39 @@
 
 
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-sm-6 col-md-6">
           <div class="contact-map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.179218843245!2d-93.14850498575655!3d16.767756824793906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd9184bfc93ed%3A0xa8c68497e0aab135!2sBlvd.+Arco+Iris+442%2C+Monterreal%2C+29026+Tuxtla+Guti%C3%A9rrez%2C+Chis.!5e0!3m2!1ses-419!2smx!4v1523644145461" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
         </div>
 
         
-        <div class="col-md-6">
-          <form role="form" name="ajax-form" id="ajax-form" action="" method="post" class="form-main">
+        <div class="col-sm-6 col-md-6">
+          <form role="form" name="ajax-form" id="ajax-form" action="" method="post" class="form-main" onSubmit="return false">
 
             <div class="form-group">
               <label for="name2">Nombre</label>
-              <input class="form-control" id="name2" name="name" type="text" value="Nombre">
+              <input class="form-control" id="txtNOMBRE" name="name" type="text" placeholder="Nombre">
             </div>
 
             <div class="form-group">
               <label for="name2">Teléfono</label>
-              <input class="form-control" id="name2" name="name" type="text" value="Teléfono">
+              <input class="form-control" id="txtTELEFONO" name="name" type="text" placeholder="Teléfono">
             </div>
 
             <div class="form-group">
               <label for="email2">Correo</label>
-              <input class="form-control" id="email2" name="email" type="text" value="Correo">              
+              <input class="form-control" id="txtCORREO" name="email" type="text" placeholder="Correo">              
             </div>
 
             <div class="form-group">
               <label for="message2">Comentario</label>
-              <textarea class="form-control" id="message2" name="message" rows="5">Comentario</textarea>
+              <textarea class="form-control" id="txtCOMENTARIO" name="message" rows="5"  placeholder="Comentario"></textarea>
             </div>
-
+            <div id="_AJAX_PRE_"></div>
             <div class="row">            
-              <div class="col-xs-12">
-                <button type="submit" class="btn btn-4  btn-rounded " id="send">ENVIAR</button>
+              <div class="col-xs-12 cont-btnenvia">
+                <button type="submit" class="btn btn-4  btn-rounded " id="send" onclick="sendCORREO()">ENVIAR</button>
               </div>
             </div>
 

@@ -16,6 +16,9 @@
         <a class="selector" href="contacto.php">CONTACTO</a>
       </ul>
     </nav>
+    <div class="openclose">
+      <i class="fa fa-bars open" aria-hidden="true"></i>
+    </div> 
   </div>
 
   <div class="textoh">
@@ -31,9 +34,9 @@
 <div class="container" style="padding:2% 0%;">
     <div class="row">
       <ul class="thumbnails list-unstyled">
-        <li class="col-md-3">
+        <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="RETROEXCAVADORA JOHN DEERE 310J X151945" style="width: 100%" src="../img/una.jpg">
             </div>
             <div class="caption">
@@ -42,9 +45,9 @@
           </div>
         </li>
         
-        <li class="col-md-3">
+        <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="LOWBOY WITZCO TRAILERS INC CHALLENGER RG50 000097" style="width: 100%" src="../img/dos.jpg">
             </div>
             <div class="caption">
@@ -53,9 +56,9 @@
           </div>
         </li>
         
-        <li class="col-md-3">
+        <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="RETROEXCAVADORA CASE 580N" style="width: 100%" src="../img/tres.jpg">
             </div>
             <div class="caption">
@@ -64,9 +67,9 @@
           </div>
         </li>
       
-      <li class="col-md-3">
+      <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="VIBROCOMPACTADOR INGERSOLL RAND DD-110" style="width: 100%" src="../img/cuatro.jpg">
             </div>
             <div class="caption">
@@ -75,13 +78,13 @@
           </div>
         </li>
       </ul>
-    </div> <br><br>
+    </div> <br class="delete-br"><br class="delete-br">
 
     <div class="row">
       <ul class="thumbnails list-unstyled">
-        <li class="col-md-3">
+        <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="CARGADOR CAT 950M 2015" style="width: 100%" src="../img/cinco.jpg">
             </div>
             <div class="caption">
@@ -90,9 +93,9 @@
           </div>
         </li>
         
-        <li class="col-md-3">
+        <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="CARGADOR CAT 988G" style="width: 100%" src="../img/seis.jpg">
             </div>
             <div class="caption">
@@ -101,9 +104,9 @@
           </div>
         </li>
         
-        <li class="col-md-3">
+        <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="CARGADOR FRONTAL CAT 966H AQO" style="width: 100%" src="../img/siete.jpg">
             </div>
             <div class="caption">
@@ -112,9 +115,9 @@
           </div>
         </li>
       
-      <li class="col-md-3">
+      <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="Retroexcavadora CASE 580M 4×4 KIT" style="width: 100%" src="../img/ocho.jpg">
             </div>
             <div class="caption">
@@ -123,13 +126,13 @@
           </div>
         </li>
       </ul>
-    </div> <br><br>
+    </div> <br class="delete-br"><br class="delete-br">
 
     <div class="row">
       <ul class="thumbnails list-unstyled">
-        <li class="col-md-3">
+        <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="VIBRO CAT CB64 2010" style="width: 100%" src="../img/nueve.jpg">
             </div>
             <div class="caption">
@@ -138,9 +141,9 @@
           </div>
         </li>
         
-        <li class="col-md-3">
+        <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="MOTOCOMFORMADORA CATERPILLAR MODELO 12H" style="width: 100%" src="../img/diez.jpg">
             </div>
             <div class="caption">
@@ -149,9 +152,9 @@
           </div>
         </li>
         
-        <li class="col-md-3">
+        <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="MOTO KOMATSU GD650A " style="width: 100%" src="../img/once.jpg">
             </div>
             <div class="caption">
@@ -160,9 +163,9 @@
           </div>
         </li>
       
-      <li class="col-md-3">
+      <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="MONTACARGAS HYSTER DE 7 TONELADAS AQO" style="width: 100%" src="../img/doce.jpg">
             </div>
             <div class="caption">
@@ -171,13 +174,13 @@
           </div>
         </li>
       </ul>
-    </div><br><br>
+    </div><br class="delete-br"><br class="delete-br">
 
     <div class="row">
       <ul class="thumbnails list-unstyled">
-        <li class="col-md-3">
+        <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="EXCAVADORA CAT 320CL " style="width: 100%" src="../img/trece.jpg">
             </div>
             <div class="caption">
@@ -186,9 +189,9 @@
           </div>
         </li>
         
-        <li class="col-md-3">
+        <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="EXCAVADORA CAT 350" style="width: 100%" src="../img/catorce.jpg">
             </div>
             <div class="caption">
@@ -197,9 +200,9 @@
           </div>
         </li>
         
-        <li class="col-md-3">
+        <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="EXCAVADORA CATERPILLAR 320DL " style="width: 100%" src="../img/quince.jpg">
             </div>
             <div class="caption">
@@ -208,9 +211,9 @@
           </div>
         </li>
       
-      <li class="col-md-3">
+      <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="EXCAVADORA CATERPILLAR 322C" style="width: 100%" src="../img/diesiseis.jpg">
             </div>
             <div class="caption">

@@ -16,6 +16,9 @@
         <a class="selector" href="contacto.php">CONTACTO</a>
       </ul>
     </nav>
+    <div class="openclose">
+      <i class="fa fa-bars open" aria-hidden="true"></i>
+    </div> 
   </div>
 
   <div class="textoh">
@@ -36,20 +39,20 @@
   <p class="subtitn">MAQUINARIA Y EQUIPOS CERTIFICADOS PARA LA VENTA.</p>
 </div>
 
-<div class="section" style="padding: 5% 0% 5% 0%; background: #d7ccc8 ; overflow: hidden;">
+<div class="section cont-nos" style="padding: 5% 0% 5% 0%; background: #d7ccc8 ; overflow: hidden;">
       <div class="container">
         <p class="texttitn">La calidad es parte de nuestros hábitos y también parte de nuestra forma de trabajo es por eso que contamos con las siguientes marcas: </p> <br><br>
         <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="col-xs-12 col-sm-6 col-md-3 cont-imgind">
             <img src="../img/partner1.png" class="img-responsive img-ind">
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="col-xs-12 col-sm-6 col-md-3 cont-imgind">
             <img src="../img/partner2.png" class="img-responsive img-ind">
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="col-xs-12 col-sm-6 col-md-3 cont-imgind">
             <img src="../img/partner3.png" class="img-responsive img-rounded img-ind">
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="col-xs-12 col-sm-6 col-md-3 cont-imgind">
             <img src="../img/partner5.png" class="img-responsive img-ind">
           </div>
         </div>
@@ -59,13 +62,13 @@
     <div class="section" style="padding: 5% 0% 5% 0%; overflow: hidden;">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <h3>VENTA Y ALQUILER DE MAQUINARIA Y EQUIPO PARA LA CONSTRUCCIÓN Y LA MINERÍA. </h3> <br>
-            <p> NATZAN es una empresa especializada en la venta y renta de maquinaria de industria, excavación y camiones. Nuestro éxito se basa en conocer las necesidades de nuestros clientes y en proporcionarles el mejor servicio. <br><br>
+          <div class="col-sm-6 col-md-6">
+            <h3 class="tit-vamecm">VENTA Y ALQUILER DE MAQUINARIA Y EQUIPO PARA LA CONSTRUCCIÓN Y LA MINERÍA. </h3> <br>
+            <p class="subtit-vamecm"> NATZAN es una empresa especializada en la venta y renta de maquinaria de industria, excavación y camiones. Nuestro éxito se basa en conocer las necesidades de nuestros clientes y en proporcionarles el mejor servicio. <br><br>
             Nos implicamos en los proyectos de nuestros clientes para garantizarles un servicio de calidad. En estos años hemos conseguido su confianza gracias a nuestros puntos fuertes. Asesoramiento y Servicio preventivo y correctivo. <br><br>
             Estamos comprometidos en ayudar a nuestros clientes de forma rápida y efectiva en la entrega de maquinarias.</p>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6 col-md-6">
             <img src="../img/maquinaria.jpg"
             class="img-responsive">
           </div>

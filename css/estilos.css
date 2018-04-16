@@ -6,6 +6,11 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+.openclose{
+  display: none;
+}
+
 #header1{
   width: 100%;
   height: 520px;

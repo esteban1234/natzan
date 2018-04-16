@@ -16,6 +16,9 @@
 				<a class="selector" href="vistas/contacto.php">CONTACTO</a>
 			</ul>
 		</nav>
+    <div class="openclose">
+      <i class="fa fa-bars open" aria-hidden="true"></i>
+    </div>  
 	</div>
 
 	<div class="textoh">
@@ -31,9 +34,9 @@
 <div class="container" style="padding:2% 0%;">
     <div class="row">
       <ul class="thumbnails list-unstyled">
-        <li class="col-md-3">
+        <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="RETROEXCAVADORA JOHN DEERE 310J X151945" style="width: 100%" src="img/una.jpg">
             </div>
             <div class="caption">
@@ -50,9 +53,9 @@
           </div>
         </li>
         
-        <li class="col-md-3">
+        <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="LOWBOY WITZCO TRAILERS INC CHALLENGER RG50 000097" style="width: 100%" src="img/dos.jpg">
             </div>
             <div class="caption">
@@ -69,9 +72,9 @@
           </div>
         </li>
         
-        <li class="col-md-3">
+        <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="RETROEXCAVADORA CASE 580N" style="width: 100%" src="img/tres.jpg">
             </div>
             <div class="caption">
@@ -88,9 +91,9 @@
           </div>
         </li>
       
-      <li class="col-md-3">
+      <li class="col-sm-6 col-md-6 col-lg-3">
           <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
+            <div style="padding:4px" class="cont-img">
               <img alt="VIBROCOMPACTADOR INGERSOLL RAND DD-110" style="width: 100%" src="img/cuatro.jpg">
             </div>
             <div class="caption">
@@ -113,21 +116,18 @@
 </div>
 </div>
 
-<div class="" style="padding: 5% 0% 5% 0%; background: #d7ccc8 ; overflow: hidden;" >
-
-
-          <div class="col-md-6">
-            <img src="img/maquinaria.jpg"
-            class="img-responsive">
-          </div>
-          <div class="col-md-6">
-            <p class="texto">TODOS NUESTROS PRODUCTOS HAN ESTADOS SUJETOS A PRUEBAS DE CALIDAD. <br><br>
+<div class="cont-imgfoot" style="padding: 5% 0% 5% 0%; background: #d7ccc8 ; overflow: hidden;" >
+  <div class="col-sm-5 col-md-6 img-foot">
+    <img src="img/maquinaria.jpg" class="img-responsive">
+  </div>
+  <div class="col-sm-7 col-md-6">
+    <p class="texto">TODOS NUESTROS PRODUCTOS HAN ESTADOS SUJETOS A PRUEBAS DE CALIDAD. <br><br>
 				MAQUINARIA Y EQUIPOS CERTIFICADOS PARA LA VENTA.</p>
-				<div style="text-align: right; margin-right: 10%;">
-					<a href="vistas/servicios.php" class="btn btn-4">VER MAS PRODUCTOS</a>
-				</div>
-          </div>
-    </div>
+		<div style="text-align: right; margin-right: 10%;" class="cont-btn">
+			<a href="vistas/servicios.php" class="btn btn-4">VER MAS PRODUCTOS</a>
+		</div>
+  </div>
+</div>
 
 
 
