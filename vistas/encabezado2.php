@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	
+	<meta name="google-site-verification" content="0quv77l214scF5nkKke3ROirv9TpJ6T_BrY2XPEDv-E" />
 	<link rel="icon" type="image/png" href="../img/favicon.png" />
 	<title>NATZAN MAQUINARIAS</title>
 	 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
